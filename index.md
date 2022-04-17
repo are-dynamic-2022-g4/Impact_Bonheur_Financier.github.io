@@ -15,7 +15,7 @@ Créer une population d’individus avec des caractéristiques prédéfinies Cr�
 La consommation moyenne Le taux de pauvreté Les inégalités salariales Le taux de chômage
 
 ## Déroulement
-```
+
 1ere semaine :	
 Durant la première semaine nous avons voulu commencer à coder notre système avec des boucle for,if,else,… Cependant nous avons du 
 changer l’orientation de notre programmation suite a la demande de notre enseignante et nous orienter plus sur de la Programmation 
@@ -48,4 +48,4 @@ Durant la cinquième semaine nous avons effectuer la finition de la base du code
 système en créant des graphique pour permettre la visualisation du système. Nous avons aussi remis en ordre le code pour la création
 de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons aussi commencé la mise en place de groupe d'individu
 (Famille,Connaissance,Amis) pour permettre la propagation du bonheur.
-```
+
