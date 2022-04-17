@@ -1,4 +1,4 @@
-# L impact d'un événement financier sur le bonheur d une population
+# L'impact d'un événement financier sur le bonheur d'une population
 ## Introduction
 Nous avons décidé de nous pencher sur l’impact qu’un événement financier a sur un groupe d’individu et comment il influe sur le bonheur de l’ensemble de la population. Pour cela nous allons créer un système dynamique qui nous permettra d’observer cet impact.
 
