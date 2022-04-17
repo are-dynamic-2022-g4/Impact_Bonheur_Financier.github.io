@@ -2,5 +2,4 @@
 Projet effectué par Colin Parent, Victor Papin, Ines Rahaoui, Younes Lazar en L1S2 à Sorbonne Université.
 
 
-
-https://are-dynamic-2022-g4.github.io/Impact_Bonheur_Financier.github.io/
+https://github.com/are-dynamic-2022-g4/Impact_Bonheur_Financier.github.io
