@@ -1,20 +1,21 @@
-Impact Bonheur Financier
-Introduction
+# Impact Bonheur Financier
+## Introduction
 Nous avons décidé de nous pencher sur l’impact qu’un événement financier a sur un groupe d’individu et comment il influe sur le bonheur de l’ensemble de la population. Pour cela nous allons créer un système dynamique qui nous permettra d’observer cet impact.
 
-Problématique
+### Problématique
 Comment un événement financier influencera-t-il le bonheur général d’une population ?
 
-Hypothèse
+### Hypothèse
 Un événement financier sur un groupe d’individu aura un impact faible sur le bonheur général de la population si le groupe n’est pas assez conséquent, mais un impact fort sur ledit groupe.
 
-Objectifs
+## Objectifs
 Créer une population d’individus avec des caractéristiques prédéfinies Créer des événements aléatoires, dont financiers, qui ont une influence plus ou moins importante sur le bonheur Calculer le bonheur avant et après ces événements pour étudier leur impact sur le bonheur de la population globale Créer des liens entre les individus de la population
 
-Critère de calculs du bonheur
+### Critère de calculs du bonheur
 La consommation moyenne Le taux de pauvreté Les inégalités salariales Le taux de chômage
 
-Déroulement
+## Déroulement
+```
 1ere semaine :	
 Durant la première semaine nous avons voulu commencer à coder notre système avec des boucle for,if,else,… Cependant nous avons du 
 changer l’orientation de notre programmation suite a la demande de notre enseignante et nous orienter plus sur de la Programmation 
@@ -47,3 +48,4 @@ Durant la cinquième semaine nous avons effectuer la finition de la base du code
 système en créant des graphique pour permettre la visualisation du système. Nous avons aussi remis en ordre le code pour la création
 de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons aussi commencé la mise en place de groupe d'individu
 (Famille,Connaissance,Amis) pour permettre la propagation du bonheur.
+```
