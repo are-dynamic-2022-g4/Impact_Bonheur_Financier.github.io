@@ -3,4 +3,4 @@ Projet effectué par Colin Parent, Victor Papin, Ines Rahaoui, Younes Lazar en L
 
 
 
-https://github.com/are-dynamic-2022-g4/Impact_Bonheur_Financier.github.io
+https://are-dynamic-2022-g4.github.io/Impact_Bonheur_Financier.github.io/
