@@ -56,3 +56,10 @@ Graphique du bonheur moyen de la population:
 
 Graphique du bonheur en fonction du revenu:
 ![Bonheur en fonction du revenu](https://cdn.discordapp.com/attachments/489890771668041738/965671339761467422/IMG-20220418-WA0003.jpg)
+
+
+
+
+## Bibliographie
+Nous avons utiliser pour la plupart de nos recherches les études publiés par l'INSEE car nous considérions ses résultats comme vérifiés et de plus il nous permettait d'avoir des valeurs précise pour la population Française.
+https://www.insee.fr/fr/statistiques/4238781
