@@ -49,3 +49,8 @@ système en créant des graphique pour permettre la visualisation du système. N
 de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons aussi commencé la mise en place de groupe d'individu
 (Famille,Connaissance,Amis) pour permettre la propagation du bonheur.
 
+
+
+```
+![Bonheur moyen de la population](https://cdn.discordapp.com/attachments/489890771668041738/965671340004749352/IMG-20220418-WA0002.jpg)
+![Bonheur en fonction du revenu](https://cdn.discordapp.com/attachments/489890771668041738/965671339761467422/IMG-20220418-WA0003.jpg)
