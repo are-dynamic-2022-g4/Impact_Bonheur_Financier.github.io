@@ -51,7 +51,6 @@ de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons
 
 
 
-```
 Graphique du bonheur moyen de la population:
 ![Bonheur moyen de la population](https://cdn.discordapp.com/attachments/489890771668041738/965671340004749352/IMG-20220418-WA0002.jpg)
 
