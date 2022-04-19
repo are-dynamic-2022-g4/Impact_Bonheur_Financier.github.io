@@ -1,0 +1,217 @@
+from random import *
+import numpy as np
+import matplotlib.pyplot as plt
+import networkx as nx
+
+class Habitant():
+    def __init__(self,donnees_age,genre,money,conso,chomage,i):
+        self.donnees_age=int(np.random.choice(np.arange(3),1,p=[0.246,0.505,0.249]))
+        self.chomage=int(np.random.choice([0,1],1,p=[donnees_age[self.donnees_age][1],1-donnees_age[self.donnees_age][1]]))
+        self.genre=int(np.random.choice(np.arange(2),1,p=[0.48,0.52]))
+        self.immunite=np.random.randint(1,50)
+        self.groupe=set()
+        self.numero=i
+        if(self.chomage!=0):
+            self.money=int(np.random.choice(np.arange(6),1,p=[0.222,0.307,0.180,0.103,0.099,0.089]))
+        else:
+            self.money=6
+        
+        if(self.money==0 or self.money==6 ):
+            self.pauvrete=int(np.random.choice([0,1],1,p=[1-((donnees_age[self.donnees_age][1]*chomage[self.chomage][1])/p),(donnees_age[self.donnees_age][1])*(chomage[self.chomage][1])/p]))
+        else:
+            self.pauvrete=1
+            
+        if(genre==1) and (self.chomage==1):
+            self.inegalite=np.random.choice([0,1],1,p=[genre[1][1],1-genre[1][1]])
+        elif(self.chomage==0):
+            self.inegalite=0.5
+        else:
+            self.inegalite=1
+            
+        if (self.donnees_age==0):
+            self.timer=np.random.randint(7,14)
+        elif (self.donnees_age==1):
+            self.timer=np.random.randint(25,35)
+        else:
+            self.timer=np.random.randint(55,65)
+        
+        self.stat=self.timer
+        
+        self.bonheur=0.5
+        
+        #self.bonheur=0.20*float(1-(money[self.money][1]/money[self.money][0]))+0.30*int(chomage[self.chomage][2])+(0.40*chomage[self.pauvrete][2]+0.40*self.inegalite)/2.0+0.10
+            
+            
+    def test(self,donnees_age,genre,money,chomage):
+        print(donnees_age[self.donnees_age][0],genre[self.genre][0],money[self.money][0],money[self.money][1],chomage[self.chomage][0],donnees_age[3][self.pauvrete],"Bonheur:"+str(round(self.bonheur,2)))
+    
+    def descend(self,weight):
+        if(self.bonheur>=0.05):
+            self.bonheur=self.bonheur-0.05*weight
+            
+            
+    def evenement_positif(self,weight):
+        #Prime,RSA,Economie
+        p=random()
+        if(self.bonheur<0.95):
+            self.bonheur=self.bonheur+0.05*weight
+        else:
+            self.bonheur=1
+    
+    def modif_travail(self,money,conso):
+        b=random()
+        if (b<0.5) and (self.immunite==0):
+            #self.bonheur=self.bonheur-0.30*int(self.chomage)-0.20*float(1-(money[self.money][1]/money[self.money][0]))
+            if self.chomage==1:            
+                self.chomage=0
+                self.money=6
+                self.bonheur+=0.05
+            else:
+                self.chomage=1
+                self.money=int(np.random.choice(np.arange(6),1,p=[0.222,0.307,0.180,0.103,0.099,0.089]))
+                self.bonheur-=0.05
+            #self.bonheur=self.bonheur+0.20*float(1-(money[self.money][1]/money[self.money][0]))+0.30*int(self.chomage)
+        if(self.immunite==0):
+            self.immunite=np.random.randint(20,30)
+        self.immunite=self.immunite-1
+    def admission(self,G):
+        self.groupe.add(G)
+        
+        
+class Groupe():
+    def __init__(self,n,Type):
+        self.type=int(np.random.choice(np.arange(3),1,p=[0.2,0.3,0.5]))
+        a,b,c=Type[self.type]
+        self.taille=np.random.randint(b,c)
+        self.numero=n
+        self.membre=np.empty(self.taille,dtype=object)
+
+        
+    def test(self,n,Type):
+        print("Groupe n°"+str(self.numero)+"\n\n"+str(Type[self.type][0])+" composé de "+str(self.membre)+"\n\n")
+    
+        
+    def ajout(self,humain,x):
+        if not(self.type in humain.groupe):
+            if x<len(self.membre):
+                humain.admission(self.type)
+                self.membre[x]=humain.numero
+            
+        
+        
+        
+        
+        
+    
+        
+            
+        
+    
+            
+        
+
+
+
+Conso={0:("Seul",1387),1:("famille_monoparentale",1981),2:("couple_sans_enfant",2300),3:("couple_avec_enfant",3110)}        
+Donnees_age={0:("15-24",0.245),1:("25-49",0.093),2:("+50",0.069),3:("Pauvre","Aisé")}
+Genre={0:("H",1),1:("F",0.0806)}
+Money={0:(1500,715),1:(2000,1482),2:(2500,1482),3:(3000,1482),4:(3500,2430),5:(4000,2430),6:(1170,715)}
+Chomage={0:("Chomage",0.37,0),1:("Travail",0.084,1)}
+p=0.222+0.37
+Type={0:("Famille",2,10),1:("Amis",3,15),2:("Connaissances",10,30)}
+
+
+
+        
+def bonheur_general(H):
+    a=0
+    for k in range(len(H)):
+        a+=H[k].bonheur
+    return(a/len(H))
+        
+        
+def simulation(H,jours):
+    B=[]
+    for j in range(jours):
+        #print("\n\n Jour "+str(j+1)+"\n\n")
+        for humain in H:
+            a=np.array(list(G.edges(humain.numero,data=True)))
+            humain.modif_travail(Money,Conso)
+            #humain.test(Donnees_age,Genre,Money,Chomage)
+            if (humain.timer==0):
+                humain.timer=humain.stat
+                p=random()
+                if p<0.5:
+                    humain.descend(1)
+                    for i in G.neighbors(humain.numero):
+                        indice=int(np.where(a==i)[0])
+                        H[i].descend(float(a[indice][2]['weight']))
+                else:
+                    humain.evenement_positif(1)
+                    for i in G.neighbors(humain.numero):
+                        indice=int(np.where(a==i)[0])
+                        H[i].evenement_positif(float(a[indice][2]['weight']))
+            else:
+                humain.timer=humain.timer-1
+        B.append(bonheur_general(H))
+        if(j%100==0):
+            print(str(round(((j/jours)*100)+10,1))+ "%")
+        
+    return(B)
+        #print("\nBonheur Générale: "+str(round(bonheur_general(H),2)))
+
+
+def dynamic(taille_de_population,nb_simulation,jours):
+    sauvegarde=np.zeros((nb_simulation,jours))
+    sauvegarde0=[]
+    sauvegarde1=[]
+    sauvegarde2=[]
+    sauvegarde3=[]
+    sauvegarde4=[]
+    sauvegarde5=[]
+    sauvegarde6=[]
+    for k in range(nb_simulation):
+        print("\n\n")
+        print("Création de la population "+ str(k+1))
+        H= np.empty(taille_de_population,dtype=object)
+        print("Simulation n°"+str(k+1)+" sur "+str(nb_simulation)+"\n")
+        for i in range(taille_de_population):    
+            H[i] = Habitant(Donnees_age,Genre,Money,Conso,Chomage,i)
+        sauvegarde[k]=simulation(H,jours)
+
+        print("\n\n CHARGEMENT TOTAL : " + str(round(((k/nb_simulation)*100)+10,1))+ "%")
+    for i in range(taille_de_population):
+        if H[i].money==0:
+            sauvegarde0.append(H[i].bonheur)
+        if H[i].money==1:
+            sauvegarde1.append(H[i].bonheur)
+        if H[i].money==2:
+            sauvegarde2.append(H[i].bonheur)
+        if H[i].money==3:
+            sauvegarde3.append(H[i].bonheur)
+        if H[i].money==4:
+            sauvegarde4.append(H[i].bonheur)
+        if H[i].money==5:
+            sauvegarde5.append(H[i].bonheur)
+        if H[i].money==6:
+            sauvegarde6.append(H[i].bonheur)
+    
+    test=plt.plot([i for i in range(jours)],np.mean(sauvegarde,axis=0))
+    _=plt.bar([i for i in Money],[np.mean(sauvegarde0),np.mean(sauvegarde1),np.mean(sauvegarde2),np.mean(sauvegarde3),np.mean(sauvegarde4),np.mean(sauvegarde5),np.mean(sauvegarde6)])
+    print("finish")
+    plt.show()
+
+    
+                      
+
+G = nx.Graph()
+H=np.empty(5000,dtype=object)
+for i in range(5000):
+    H[i] = Habitant(Donnees_age,Genre,Money,Conso,Chomage,i)
+    G.add_node(i)
+    for j in range(np.random.randint(1,15)):
+        a=np.random.randint(0,5000)
+        if a!=i:
+            G.add_edge(i,a,weight=(np.random.choice([0.1,0.4,0.8],1,p=[0.5,0.3,0.2])))
+        
+dynamic(5000,7,500)
