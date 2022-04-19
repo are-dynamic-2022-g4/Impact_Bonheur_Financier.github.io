@@ -34,11 +34,11 @@ Nous avons choisi ces métriques car le nombre de simulations apporte la precisi
 *0:1500€/mois    1:2000€/mois   2:2500€/mois     3:3000€/mois    4:3500€/mois     5:4000+€/mois    6:1170€/mois(Chômage)
 
 #### Représentation des liens entre individus(20)
-![Représentation des liens entre individus(20)](https://cdn.discordapp.com/attachments/489890771668041738/965963461173579846/Capture_dAcran_2022-04-19_3.png)
+![Représentation des liens entre individus(20)](https://cdn.discordapp.com/attachments/489890771668041738/965966381029924884/IMG_20220419_152342.png)
 
 
 #### Représentation des liens entre individus(1000)
-![Représentation des liens entre individus(1000)](https://cdn.discordapp.com/attachments/489890771668041738/965963460573810758/Capture_dAcran_2022-04-19_2.png)
+![Représentation des liens entre individus(1000)](https://cdn.discordapp.com/attachments/489890771668041738/965966380753104926/IMG_20220419_152359.png)
 
 ## Conclusion et Critique
 On en conclue qu'un évènement financier influencera peu le bonheur de la population malgré le changement drastique du bonheur de l'individu et de ses proches.
