@@ -69,5 +69,10 @@ Nous avons utiliser pour la plupart de nos recherches les études publiés par l
 #### <a href="https://www.insee.fr/fr/statistiques/4238387?sommaire=4238781" > Chômage INSEE </a>
 #### <a href="https://www.insee.fr/fr/statistiques/4238391?sommaire=4238781" > Revenu salarial INSEE </a> 
 #### <a href="https://www.insee.fr/fr/statistiques/4238393?sommaire=4238781" > Niveau de vie INSEE </a>
+#### <a href="https://www.insee.fr/fr/statistiques/5396066#graphique-figure3" > Salaire mensuels INSEE </a>
+#### <a href="https://www.insee.fr/fr/statistiques/5432469?sommaire=5435421" > Protection sociale INSEE </a>
+#### <a href="https://www.insee.fr/fr/metadonnees/definition/c1562#:~:text=Les%20prestations%20sociales%20(ou%20transferts,la%20protection%20contre%20divers%20risques" > Protection sociale définition </a>
+#### <a href="https://www.insee.fr/fr/statistiques/2569318?sommaire=2587886" > Impact des gaz à effet de serre </a>
+#### <a href="https://www.insee.fr/fr/statistiques/5432451?sommaire=5435421" > Diplome en fonction du genre et de l'âge </a>
 #### Revenu moyen de la population française 
 ![Revenu salarial moyen](https://cdn.discordapp.com/attachments/489890771668041738/965890919276625961/25111.jpeg)
