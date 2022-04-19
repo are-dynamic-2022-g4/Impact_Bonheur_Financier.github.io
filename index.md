@@ -64,7 +64,7 @@ de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons
 Nous avons utiliser pour la plupart de nos recherches les études publiés par l'INSEE car nous considérions ses résultats comme vérifiés et de plus il nous permettait d'avoir des valeurs précise pour la population Française.
 
 #### Femmes et Hommes
-(https://www.insee.fr/fr/statistiques/4238375?sommaire=4238781)
+https://www.insee.fr/fr/statistiques/4238375?sommaire=4238781
 #### Chômage
 <a> https://www.insee.fr/fr/statistiques/4238387?sommaire=4238781 </a>
 #### Revenu salarial
@@ -73,5 +73,3 @@ Nous avons utiliser pour la plupart de nos recherches les études publiés par l
 https://www.insee.fr/fr/statistiques/4238393?sommaire=4238781 
 #### Revenu moyen de la population française 
 ![Revenu salarial moyen](https://cdn.discordapp.com/attachments/489890771668041738/965890919276625961/25111.jpeg)
-end
-test
