@@ -33,6 +33,13 @@ Nous avons choisi ces métriques car le nombre de simulations apporte la precisi
 
 *0:1500€/mois    1:2000€/mois   2:2500€/mois     3:3000€/mois    4:3500€/mois     5:4000+€/mois    6:1170€/mois(Chômage)
 
+#### Représentation des liens entre individus(20)
+![Représentation des liens entre individus(20)](https://cdn.discordapp.com/attachments/489890771668041738/965963461173579846/Capture_dAcran_2022-04-19_3.png)
+
+
+#### Représentation des liens entre individus(1000)
+![Représentation des liens entre individus(1000)](https://cdn.discordapp.com/attachments/489890771668041738/965963460573810758/Capture_dAcran_2022-04-19_2.png)
+
 ## Conclusion et Critique
 On en conclue qu'un évènement financier influencera peu le bonheur de la population malgré le changement drastique du bonheur de l'individu et de ses proches.
 Notre hypothèse avait donc une part de vrai mais elle ne l'était pas complétement. En effet, on retrouve l'impact faible sur le bonheur général d'"une population mais la taille du groupe n'a que très peu d'importance.
@@ -57,10 +64,6 @@ Nous avons utiliser pour la plupart de nos recherches les études publiés par l
 #### Revenu moyen de la population française 
 ![Revenu salarial moyen](https://cdn.discordapp.com/attachments/489890771668041738/965890919276625961/25111.jpeg)
 
-#### Représentation des liens entre individus(20)
-![Représentation des liens entre individus(20)](https://cdn.discordapp.com/attachments/489890771668041738/965963461173579846/Capture_dAcran_2022-04-19_3.png)
-#### Représentation des liens entre individus(1000)
-![Représentation des liens entre individus(1000)](https://cdn.discordapp.com/attachments/489890771668041738/965963460573810758/Capture_dAcran_2022-04-19_2.png)
 
 
 
