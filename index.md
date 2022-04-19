@@ -71,5 +71,5 @@ Nous avons utiliser pour la plupart de nos recherches les études publiés par l
 https://www.insee.fr/fr/statistiques/4238391?sommaire=4238781 
 #### Niveau de vie
 https://www.insee.fr/fr/statistiques/4238393?sommaire=4238781 
-#### Revenu moyen de la population française
+#### Revenu moyen de la population française 
 ![Revenu salarial moyen](https://cdn.discordapp.com/attachments/489890771668041738/965890919276625961/25111.jpeg)
