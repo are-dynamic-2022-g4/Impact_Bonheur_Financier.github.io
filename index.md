@@ -57,6 +57,10 @@ Nous avons utiliser pour la plupart de nos recherches les études publiés par l
 #### Revenu moyen de la population française 
 ![Revenu salarial moyen](https://cdn.discordapp.com/attachments/489890771668041738/965890919276625961/25111.jpeg)
 
+#### Représentation des liens entre individus(20)
+![Représentation des liens entre individus(20)](https://cdn.discordapp.com/attachments/489890771668041738/965963461173579846/Capture_dAcran_2022-04-19_3.png)
+#### Représentation des liens entre individus(1000)
+![Représentation des liens entre individus(1000)](https://cdn.discordapp.com/attachments/489890771668041738/965963460573810758/Capture_dAcran_2022-04-19_2.png)
 
 
 
