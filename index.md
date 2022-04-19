@@ -6,7 +6,7 @@ Nous avons décidé de nous pencher sur l’impact qu’un événement financier
 Comment un événement financier influencera-t-il le bonheur général d’une population ?
 
 ### Hypothèse
-Un événement financier sur un groupe d’individu aura un impact faible sur le bonheur général de la population si le groupe n’est pas assez conséquent, mais un impact fort sur ledit groupe.
+Un événement financier sur un groupe d’individu aura un impact faible sur le bonheur général de la population si le groupe n’est pas assez conséquent, mais il aura un impact fort sur ledit groupe.
 
 ## Objectifs
 Créer une population d’individus avec des caractéristiques prédéfinies Créer des événements aléatoires, dont financiers, qui ont une influence plus ou moins importante sur le bonheur Calculer le bonheur avant et après ces événements pour étudier leur impact sur le bonheur de la population globale Créer des liens entre les individus de la population
@@ -60,7 +60,14 @@ de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons
 
 *0:1500€/mois    1:2000€/mois   2:2500€/mois     3:3000€/mois    4:3500€/mois     5:4000+€/mois    6:1170€/mois(Chômage)
 
-
+## Conclusion
+On en conclue qu'un évènement financier influencera peu le bonheur de la population malgré le changement drastique du bonheur de l'individu et de ses proches.
+Notre hypothèse avait donc une part de vrai mais elle ne l'était pas complétement. En effet, on retrouve l'impact faible sur le bonheur général d'"une population mais la taille du groupe n'a que très peu d'importance.
+Cependant nous pourrions améliorer notre programme en rajoutant par exemple, le nombre d'enfants par ménage influençant le coût du foyer, les relations entre les individus, prendre en compte les évènements externes influençant différemment la population globale, élargir les caractéristiques des individus(maladies,...),...
+Dans notre système nous avons dû négliger certaines données telle que l'impact du climat sur le bonheur ou encore l'impact du lieu de vie. Nous avons aussi approximativiser les salaires(et les dépenses) des individus.
+Nous avons dû faire ces approximations car:- Pour les salaires, nous ne pouvions pas créer toutes les valeurs de salaire possible car cela serait extrêmement long et                                                n'aurait pas une grande utilité.
+                                           - Pour le climat, nous avons considérer que l'impact serait le même pour tous et donc ne serait pas forcément intéressant à                                              observer et surtout serait difficile à calculer.
+                                           - Pour le lieu de vie, nous avons décidé de ne pas le prendre en compte car,à l'instar des salaires, calculer le bonheur en                                              fonction d'une habitation est difficile.
 
 ## Bibliographie
 Nous avons utiliser pour la plupart de nos recherches les études publiés par l'INSEE car nous considérions ses résultats comme vérifiés et de plus il nous permettait d'avoir des valeurs précise pour la population Française.
