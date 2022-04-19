@@ -22,12 +22,12 @@ Comme modèle nous avons choisi une ville entre 500 et 10000 habitants que nous 
 Nous avons en plus de ces parmètres nous avons fixé certains paramères qui était difficilement quantifiable telle que les salaires,...
 #### Déroulement
 On crée une population généré individu par individu avec des caractéristique attribué selon les données colléctées. Puis nous avons attribué des relations aléatoires entre les individus(Famille,Amis,Connaissances) qui on une influence plus ou moins élevée sur le bonheur en fonction de leurs relations(50% pour la Famille,30% pour les Amis,20% pour les Connaissances).Après cela nous calculons le bonheur des individus post-évènement financier et nous appliquons les liens entre eux. Cela a transformé notre travail car toutes nos simulations ont changé pour créer le résultat final que vous voyez ci-dessous. 
-###### Graphique du bonheur moyen de la population en fonction du nombre de jours:
+##### Graphique du bonheur moyen de la population en fonction du nombre de jours:
 ![Bonheur moyen de la population](https://cdn.discordapp.com/attachments/489890771668041738/965671340004749352/IMG-20220418-WA0002.jpg)
 
 L'évènement financier que nous avons inclus est: la perte ou le gain de travail. Nous avons ensuite inclus un principe de récupération de bonheur en fonction du temps qui permet aux individus de récuperer une partie du bonheur perdu. De plus, nous avons décidé d'inclure au code un principe d'immunité qui permet aux individus de ne pas perdre leur travail instantannement. Enfin le code génèrera le nombre de simulations demandé et calculera la moyenne de ces simulations tout en renvoyant le bonheur général en fonction du salaire(cf:graphique ci dessous)
 Nous avons choisi ces métriques car le nombre de simulations apporte la precision,le nombre de jours permet de s'assurer de la présence d'une convergence ou non et la population est une métrique qui est plus ou moins fixe.
-###### Graphique du bonheur en fonction du revenu:
+##### Graphique du bonheur en fonction du revenu:
 ![Bonheur en fonction du revenu](https://cdn.discordapp.com/attachments/489890771668041738/965671339761467422/IMG-20220418-WA0003.jpg)
 
 
