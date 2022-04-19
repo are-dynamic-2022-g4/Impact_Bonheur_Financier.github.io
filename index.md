@@ -67,4 +67,3 @@ de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons
 (Famille,Connaissance,Amis) pour permettre la propagation du bonheur.
 
 ```
-Test
