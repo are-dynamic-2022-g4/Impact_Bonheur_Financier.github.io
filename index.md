@@ -56,6 +56,8 @@ de plusieurs simulations et pour permettre leurs comparaisons.De plus nous avons
 
 #### Graphique du bonheur en fonction du revenu:
 ![Bonheur en fonction du revenu](https://cdn.discordapp.com/attachments/489890771668041738/965671339761467422/IMG-20220418-WA0003.jpg)
+
+
 *0:1500€/mois    1:2000€/mois   2:2500€/mois     3:3000€/mois    4:3500€/mois     5:4000+€/mois    6:1170€/mois(Chômage)
 
 
