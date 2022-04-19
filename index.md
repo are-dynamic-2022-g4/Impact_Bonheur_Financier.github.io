@@ -42,7 +42,7 @@ Nous avons choisi ces métriques car le nombre de simulations apporte la precisi
 
 ## Conclusion et Critique
 On en conclue qu'un évènement financier influencera peu le bonheur de la population malgré le changement drastique du bonheur de l'individu et de ses proches.
-Notre hypothèse avait donc une part de vrai mais elle ne l'était pas complétement. En effet, on retrouve l'impact faible sur le bonheur général d'"une population mais la taille du groupe n'a que très peu d'importance.
+Notre hypothèse était donc fausse mais elle ne l'était pas complétement. En effet, on retrouve l'impact faible sur le bonheur général d'"une population mais la taille du groupe n'a que très peu d'importance.
 Cependant nous pourrions améliorer notre programme par exemple, en rajoutant le nombre d'enfants par ménage influençant le coût du foyer, en élargissant les types de relations entre les individus, en prenant en compte les évènements externes influençant différemment la population globale, en élargissant les caractéristiques des individus(maladies,...),en incluant les changement de salaires,...
 Dans notre système nous avons dû négliger certaines données telle que l'impact du climat sur le bonheur ou encore l'impact du lieu de vie. Nous avons aussi approximativiser les salaires(et les dépenses) des individus.
 Nous avons dû faire ces approximations car:- Pour les salaires, nous ne pouvions pas créer toutes les valeurs de salaire possible car cela serait extrêmement long et                                                n'aurait pas une grande utilité.
